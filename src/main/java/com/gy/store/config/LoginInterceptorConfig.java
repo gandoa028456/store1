@@ -32,8 +32,11 @@ public class LoginInterceptorConfig implements WebMvcConfigurer {
         patterns.add("/users/reg");
         patterns.add("/users/login");
         patterns.add("/districts/**");
+
         //完成拦截器注册
         registry.addInterceptor(interceptor).addPathPatterns("/**").excludePathPatterns(patterns);
+        System.out.println("nihao");
+
 
     }
 }
