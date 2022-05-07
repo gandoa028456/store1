@@ -36,6 +36,9 @@ public class LoginInterceptorConfig implements WebMvcConfigurer {
         //完成拦截器注册
         registry.addInterceptor(interceptor).addPathPatterns("/**").excludePathPatterns(patterns);
         System.out.println("nihao");
+        System.out.println("nihaozengyong");
+
+
 
 
     }
